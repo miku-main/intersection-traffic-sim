@@ -1,7 +1,7 @@
-import { Simulator } from "./sim/simulator";
-import { makeDefaultConfig } from "./sim/types";
-import { bindControls } from "./ui/controls";
-import { Renderer } from "./ui/render";
+import { Simulator } from "./sim/simulator.js";
+import { makeDefaultConfig } from "./sim/types.js";
+import { bindControls } from "./ui/controls.js";
+import { Renderer } from "./ui/render.js";
 
 const canvas = document.getElementById("simCanvas");
 const statusText = document.getElementById("statusText");

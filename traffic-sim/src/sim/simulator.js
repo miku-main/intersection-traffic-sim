@@ -1,6 +1,6 @@
-import { Intersection } from "./intersection";
-import { Metrics } from "./metrics";
-import { makeRng } from "./rng";
+import { Intersection } from "./intersection.js";
+import { Metrics } from "./metrics.js";
+import { makeRng } from "./rng.js";
 
 export class Simulator {
     constructor(cfg) {

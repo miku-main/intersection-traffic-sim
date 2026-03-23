@@ -1,5 +1,3 @@
-import { query } from "express";
-
 export class Metrics {
     constructor() {
         this.spawned = 0;

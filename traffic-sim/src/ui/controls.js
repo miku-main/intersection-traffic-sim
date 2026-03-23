@@ -1,4 +1,4 @@
-import { makeDefaultConfig } from "../sim/types";
+import { makeDefaultConfig } from "../sim/types.js";
 
 function num(id) {
     return Number(document.getElementById(id).value);

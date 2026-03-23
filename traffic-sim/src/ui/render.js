@@ -105,7 +105,7 @@ export class Renderer {
 
     drawQueues(ctx, queues, cx, cy, roadW) {
         const carW = 16;
-        const CarL  = 26;
+        const carL  = 26;
         const gap = 6;
         const maxDraw = 18;
 
@@ -130,7 +130,7 @@ export class Renderer {
             if (q.length > maxDraw) {
                 ctx.fillStyle = "#cfd3dc";
                 ctx.font = "12px system-ui";
-                ctx.fillText(`+${q.length - maxDraw}`, baseX + dx * (maxDraw+1) * (carL+gap), baseY + dy * (maxDraw+1) * (larL+gap));
+                ctx.fillText(`+${q.length - maxDraw}`, baseX + dx * (maxDraw+1) * (carL+gap), baseY + dy * (maxDraw+1) * (carL+gap));
             }
         };
 
